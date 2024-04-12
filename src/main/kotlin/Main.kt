@@ -1,9 +1,6 @@
 fun main(args: Array<String>) {
-    for (i in 10 until 20 step 2) {
-        if (i == 16) return
-        println(i)
-        arrayOf("")
-        intArrayOf()
-    }
+    val list: List<Int> = listOf(1, 2, 7, 3, 4, 5, 6, 7, 8, 9, 10)
+    val list2 = list.sorted().toMutableList()
+    list2.forEach { println(it) }
 }
 
